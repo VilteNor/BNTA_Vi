@@ -1,50 +1,50 @@
 # Cheat Sheet
 
-Terminal Commands:
+## Terminal Commands:
 
-pwd  -> tells the location we are in   (example: /Users/name)
-/  -> indicates a level 
-ls  -> list of folders available here 
-ls -l  -> Tells last time accessed, which user has access to a folder
-clear  -> wipe everything 
-man  -> manual: shows the manual of the terminal command
-ls -a   -> shows all existing directories. Everything that has a dot in front is treated as a hidden file (.zshrc is a program that runs terminal) 
-ls -la  -> shows all the hidden files
-cd documents –> change directory to documents
-cd ..  -> Takes you up 1 level (2 dots). Move 2 levels - 3 dots. Stay here - 1 dot
-cd  -> takes you to the root 
-ls documents  –> will list what's in documents 
-cd documents/ press tab  -> it will autocomplete or show what's there. Tab completes the name of the file too
+- pwd  -> tells the location we are in   (example: /Users/name)
+- /  -> indicates a level 
+- ls  -> list of folders available here 
+- ls -l  -> Tells last time accessed, which user has access to a folder
+- clear  -> wipe everything 
+- man  -> manual: shows the manual of the terminal command
+- ls -a   -> shows all existing directories. Everything that has a dot in front is treated as a hidden file (.zshrc is a program that runs terminal) 
+- ls -la  -> shows all the hidden files
+- cd documents –> change directory to documents
+- cd ..  -> Takes you up 1 level (2 dots). Move 2 levels - 3 dots. Stay here - 1 dot
+- cd  -> takes you to the root 
+- ls documents  –> will list what's in documents 
+- cd documents/ press tab  -> it will autocomplete or show what's there. Tab completes the name of the file too
 
-Creating/handling:
-mkdir my_directory  –> to create a new directory/folder
-mkdir dir_1 dir_2 dir_3 -> create multiple directories at once
-mkdir "dir 1"  -> if want a folder to have a name with space  
-touch filename.extension -> creates a new file (text.txt). Touch updates the file if it already exists, but creates a new one if it doesn't exist yet. 
-open my_file.txt  -> opens the file 
+### Creating/handling:
+- mkdir my_directory  –> to create a new directory/folder
+- mkdir dir_1 dir_2 dir_3 -> create multiple directories at once
+- mkdir "dir 1"  -> if want a folder to have a name with space  
+- touch filename.extension -> creates a new file (text.txt). Touch updates the file if it already exists, but creates a new one if it doesn't exist yet. 
+- open my_file.txt  -> opens the file 
 
-Deleting:
-rm another_file  -> to delete a file
-rm -r my_directory  -> to delete a directory
+### Deleting:
+- rm another_file  -> to delete a file
+- rm -r my_directory  -> to delete a directory
 
-Moving:
-mv old_picture.png .. -> moves the file 1 level up
-mv old_picture.png new_photo.png  -> renaming the file to something that doesn't exist yet
-cp profile_photo.png my_directory  -> copy file to a directory
+### Moving:
+- mv old_picture.png .. -> moves the file 1 level up
+- mv old_picture.png new_photo.png  -> renaming the file to something that doesn't exist yet
+- cp profile_photo.png my_directory  -> copy file to a directory
 
-Git:
-git init  -> initialises a Git repository
-git status -> gives details about the state of commits
-git add file_name  -> track this file with Git
-git add .  -> adds all files from the current directory
-git commit -m "message text" -> commit the changes with a compulsory message (but make sure git add filename has been done after every change)
-git log  -> shows commit history
-git revert ID  -> reverts changes back to how it was before this commit (ID = first 7digits from git log)
+### Git:
+- git init  -> initialises a Git repository
+- git status -> gives details about the state of commits
+- git add file_name  -> track this file with Git
+- git add .  -> adds all files from the current directory
+- git commit -m "message text" -> commit the changes with a compulsory message (but make sure git add filename has been done after every change)
+- git log  -> shows commit history
+- git revert ID  -> reverts changes back to how it was before this commit (ID = first 7digits from git log)
 
-GitHub:
-ssh git@github.com. -> to check if your connection to GitHub has been established
-Set up a repository on github, then copy the SSH code link and type:
-git remote add origin git@github.com:username/repository.git 
-git push origin main  -> pushes what we have on our machine to origin from main
-Git clone git@github.com:username/cloned_repository.git  -> to clone a repository (need SSH link)
-git config --global init.defaultBranch main  -> if your git branch defaulted to master, change it to main
+### GitHub:
+- ssh git@github.com. -> to check if your connection to GitHub has been established
+- Set up a repository on github, then copy the SSH code link and type:
+- git remote add origin git@github.com:username/repository.git 
+- git push origin main  -> pushes what we have on our machine to origin from main
+- git clone git@github.com:username/cloned_repository.git  -> to clone a repository (need SSH link)
+- git config --global init.defaultBranch main  -> if your git branch defaulted to master, change it to main
