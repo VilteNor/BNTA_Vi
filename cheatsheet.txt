@@ -13,7 +13,11 @@ cd ..  -> Takes you up 1 level (2 dots). Move 2 levels - 3 dots. Stay here - 1 d
 cd  -> takes you to the root 
 ls documents  –> will list what's in documents 
 cd documents/ press tab  -> it will autocomplete or show what's there. Tab completes the name of the file too
+
+Creating/handling:
 mkdir my_directory  –> to create a new directory/folder
+mkdir dir_1 dir_2 dir_3 -> create multiple directories at once
+mkdir "dir 1"  -> if want a folder to have a name with space  
 touch filename.extension -> creates a new file (text.txt). Touch updates the file if it already exists, but creates a new one if it doesn't exist yet. 
 open my_file.txt  -> opens the file 
 
@@ -25,5 +29,16 @@ Moving:
 mv old_picture.png .. -> moves the file 1 level up
 mv old_picture.png new_photo.png  -> renaming the file to something that doesn't exist yet
 cp profile_photo.png my_directory  -> copy file to a directory
+
+Git:
+git init  -> initialises a Git repository
+git status -> gives details about the state of commits
+git add file_name  -> track this file with Git
+git add .  -> adds all files from the current directory
+git commit -m "message text" -> commit the changes with a compulsory message
+git log  -> shows commit history
+git revert ID  -> reverts changes back to how it was before this commit (ID = first 7digits from git log)
+
+GitHub:
 
 
