@@ -47,3 +47,4 @@ Set up a repository on github, then copy the SSH code link and type:
 git remote add origin git@github.com:username/repository.git 
 git push origin main  -> pushes what we have on our machine to origin from main
 Git clone git@github.com:username/cloned_repository.git  -> to clone a repository (need SSH link)
+git config --global init.defaultBranch main  -> if your git branch defaulted to master, change it to main
