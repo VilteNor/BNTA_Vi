@@ -1,17 +1,29 @@
 Terminal Commands:
 
-pwd  - tells the location we are in   (example: /Users/name)
-/  - indicates a level 
-ls  - list of folders available here 
-ls -l  - Tells last time accessed, which user has access to a folder
-clear  - wipe everything 
-man  - manual: shows the manual of the terminal command
-ls -a   - shows all existing directories. Everything that has a dot in front is treated as a hidden file (.zshrc is a program that runs terminal) 
-ls -la  - shows all the hidden files
-cd documents – change directory to documents
-cd ..  - Takes you up 1 level (2 dots). Move 2 levels - 3 dots. Stay here - 1 dot
-cd  - takes you to the root 
-ls documents  – will list what's in documents 
-cd documents/ press tab  - it will autocomplete or show what's there. Tab completes the name of the file too
-mkdir my_directory  – to create a new directory/folder
-touch filename.extension. - creates a new file. Touch updates the file if it already exists, but creates a new one if it doesn't exist yet. 
+pwd  -> tells the location we are in   (example: /Users/name)
+/  -> indicates a level 
+ls  -> list of folders available here 
+ls -l  -> Tells last time accessed, which user has access to a folder
+clear  -> wipe everything 
+man  -> manual: shows the manual of the terminal command
+ls -a   -> shows all existing directories. Everything that has a dot in front is treated as a hidden file (.zshrc is a program that runs terminal) 
+ls -la  -> shows all the hidden files
+cd documents –> change directory to documents
+cd ..  -> Takes you up 1 level (2 dots). Move 2 levels - 3 dots. Stay here - 1 dot
+cd  -> takes you to the root 
+ls documents  –> will list what's in documents 
+cd documents/ press tab  -> it will autocomplete or show what's there. Tab completes the name of the file too
+mkdir my_directory  –> to create a new directory/folder
+touch filename.extension -> creates a new file (text.txt). Touch updates the file if it already exists, but creates a new one if it doesn't exist yet. 
+open my_file.txt  -> opens the file 
+
+Deleting:
+rm another_file  -> to delete a file
+rm -r my_directory  -> to delete a directory
+
+Moving:
+mv old_picture.png .. -> moves the file 1 level up
+mv old_picture.png new_photo.png  -> renaming the file to something that doesn't exist yet
+cp profile_photo.png my_directory  -> copy file to a directory
+
+
